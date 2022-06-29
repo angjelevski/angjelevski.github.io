@@ -1,0 +1,109 @@
+
+body {
+    background-color: #004643;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans MT","Arial",sans-serif;
+}
+.card {
+    width: 70%;
+    /*height: 550px;*/
+    min-height: 550px;
+    margin-top: 130px;
+    background-color: #abd1c6;
+    border-radius: 20px;
+    align-content: center;
+    text-align: center;
+}
+.profileimg{
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    border: 10px solid #abd1c6;
+    border-radius: 50%;
+}
+#pfp{
+    width: 180px;
+}
+.name{
+    position: relative;
+    top: -60px;
+}
+h1{
+    font-size: 2.5em;
+    margin-bottom: 15px;
+}
+h3 {
+    font-size: 2em;
+    font-weight: lighter;
+    margin-top: 15px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -20px;
+    flex-wrap: wrap;
+}
+.buttons button{
+    font-family: "Gill Sans MT","Arial",sans-serif;
+    font-size: 1.2em;
+    border: 2px solid black;
+    width: 180px;
+    height: 60px;
+    background-color: #f9bc60;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.contact {
+    /*height: 120px;*/
+}
+
+/*Education*/
+.section{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 2.3em;
+    font-weight: normal;
+
+}
+.list{
+    width: 60%;
+    height: 250px;
+    margin: 35px auto 10px auto;
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.litem{
+    font-size: 1.2em;
+}
+h2{
+    font-size: 1.4em;
+    font-weight: normal;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #f9bc60;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+td{
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    width: 100px;
+    text-align: center;
+    margin: 5px 20px;
+}
+td a{
+    text-decoration: none;
+}
+td a:visited{
+    color: #004643;
+}
